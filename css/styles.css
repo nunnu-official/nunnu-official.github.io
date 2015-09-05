@@ -510,22 +510,6 @@ input:focus {
  **   SECTION:  PORTFOLIO          -----
 -----------------------------------------*/
 
-/*youtube and image responsive */
-
-.iframe-content {
-    position: relative;
-    /*width: 100%;*/
-    padding: 50% 0;
-    margin: 0 0 -53% 0;
-}
-.iframe-content iframe {
-    position: absolute;
-    top: 0;
-    left: 15%;
-    width: 70%;
-    height: 40%;
-}
-
 div.client-list img { width: 80%; }
 
 /*-----------------------------*/
@@ -536,14 +520,6 @@ div.client-list img { width: 80%; }
   background: #272727;
   opacity: 0.99;
   color: #FFFFF0;
-}
-
-.video {
-  margin: 2px 0px;
-  padding: 50px 0px;
-	background: #272727;
-  opacity: 0.99;
-	min-height: 10px;
 }
 
 .news .big-intro {
@@ -561,6 +537,36 @@ div.client-list img { width: 80%; }
 .news .column {
 	margin-bottom: 20px;
 }
+
+
+/*------------------------------------
+     SECTION :VIDEO
+------------------------------------*/
+
+.video {
+  margin: 2px 0px;
+  padding: 60px 0 100px 0;
+	background: #272727;
+  opacity: 0.99;
+	min-height: 10px;
+}
+
+/*youtube and image responsive */
+
+.iframe-content {
+    position: relative;
+    /*width: 100%;*/
+    padding: 50% 0;
+    margin: 0 0 -53% 0;
+}
+.iframe-content iframe {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+}
+
 
 
 /* IMAGE GRID */
