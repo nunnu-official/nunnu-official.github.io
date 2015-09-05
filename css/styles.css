@@ -538,6 +538,13 @@ div.client-list img { width: 80%; }
   color: #FFFFF0;
 }
 
+.video {
+  margin: 2px 0px;
+  padding: 50px 0px;
+	background: #272727;
+  opacity: 0.99;
+	min-height: 10px;
+}
 
 .news .big-intro {
 	text-align: left;
@@ -555,13 +562,6 @@ div.client-list img { width: 80%; }
 	margin-bottom: 20px;
 }
 
-.video {
-  margin: 2px 0px;
-  padding: 50px 0px;
-	background: #272727;
-  opacity: 0.99;
-	min-height: 10px;
-}
 
 /* IMAGE GRID */
 .cbp-rfgrid {
