@@ -353,7 +353,7 @@ input:focus {
 
 
 /*** SECTION HEADERS ***/
-.focus,.news.video,.about-us,.features,.packages,.products,.testimonial,.contact-us {
+.focus,.news,.live,.video,.about-us,.features,.packages,.products,.testimonial,.contact-us {
 	padding-top: 100px;
 }
 .section-header {
@@ -538,6 +538,30 @@ div.client-list img { width: 80%; }
 	margin-bottom: 20px;
 }
 
+
+.live {
+  margin: 2px 0px;
+  padding: 50px 0px;
+  background: #272727;
+  opacity: 0.99;
+  color: #FFFFF0;
+}
+
+.live .big-intro {
+	text-align: left;
+	font-weight: 200;
+	font-size: 15px;
+	line-height: normal;
+	margin-top: 5px;
+}
+.live p {
+	text-align: center;
+  font-size: 15px;
+	color: #939393;
+}
+.live .column {
+	margin-bottom: 20px;
+}
 
 /*------------------------------------
      SECTION :VIDEO
