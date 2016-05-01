@@ -1,0 +1,37 @@
+header {
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: rgba(59, 231, 174,0.3);
+}
+
+.main {
+    text-align: center;
+    width: 100%;
+}
+.main .contents   {
+    width: 55%;
+    /*border: 1px solid #FF0000;*/
+    /*border-left: 1px solid #000;
+    border-right: 1px solid #000;*/
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.6);
+}
+.main .buy {
+  text-align: left;
+}
+
+footer {
+  bottom: 0;
+  margin-bottom: -100px;
+  padding-top: 10px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: rgba(59, 231, 174,0.3);
+  text-align: center;
+}
+
+ul.center {
+  text-align: center;
+}
