@@ -9,7 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/darktooltip.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,6 +22,9 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
     <script src="js/jquery.darktooltip.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    </script>
     <script>
         $(function () {
           var clipboard = new Clipboard('.mail');
@@ -29,15 +32,6 @@
             e.clearSelection();
           });
         });
-    </script>
-    <script>
-      $(document).ready( function(){
-          //Basic
-          $('.mail').darkTooltip({
-            trigger:'click',
-            gravity:'north'
-          });
-      });
     </script>
   </head>
 
@@ -99,12 +93,10 @@
   				<img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
   			</form> -->
 
-
-
         <Hr>
         <div class="left">
           <h4>お申し込み方法</h4>
-          <a class="mail" data-tooltip="" data-clipboard-text="nunnuofficial@gmail.com">
+          <a class="mail" data-tooltip="Copied!" data-clipboard-text="nunnuofficial@gmail.com">
             nunnuofficial@gmail.com
           </a>
           まで、 <br>
