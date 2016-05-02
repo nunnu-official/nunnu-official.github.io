@@ -18,6 +18,15 @@
     <![endif]-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
+    <script>
+        $(function () {
+          var clipboard = new Clipboard('.btn');
+          clipboard.on('success', function(e) {
+            e.clearSelection();
+          });
+        });
+    </script>
     <script src="js/bootstrap.min.js"></script>
   </head>
 
@@ -82,7 +91,9 @@
         <Hr>
         <div class="left">
           <h4>お申し込み方法</h4>
-          nunnuofficial@gmail.com
+          <button class="btn" data-clipboard-text="nunnuofficial@gmail.com">
+            nunnuofficial@gmail.com
+          </button>
           まで、 <br>
           <ol>
             <li>お名前</li>
